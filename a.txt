@@ -3,3 +3,8 @@ DEV分支本地commit推送远程提PR的问题
   当PR接收的时候：如果是用merge的方式更新本地分支的话，本地会多出一根分支线，表示远程分支commit的记录。而且一会有一个灰色的PR commit记录。
   当PR拒绝并且远程有新的commit时:本地的commit会保留，但是要解决冲突，并且以merge的方式更新后会多2个commit再原先commit基础上:一个merge记录(灰色)、一个远程update记录。所以当下次你需要提交代码到远程的时候，commit就会回冗余。反观新建分支提上去则不会对本地分支的commit记录造成污染。
 
+Vavr学习:
+https://juejin.cn/post/6854573219467411470
+https://blog.csdn.net/y4x5M0nivSrJaY3X92c/article/details/108373128?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1.highlightwordscore&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1.highlightwordscore
+
+
